@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: brown;
+
+}
+
+#change-image{
+    width: 100%;
+    height: 500px;
+    max-width: 500px;
+
+    margin: 100px auto;
+    border: 5px solid white;
+
+    background-color: black;
+    
+    overflow: hidden;
+}
+
+#change-image > img {
+        width: 100%;
+    height: 500px;
+    max-width: 500px;
+
+    
+    object-fit: cover;
+    object-position: center;
+    
+}
